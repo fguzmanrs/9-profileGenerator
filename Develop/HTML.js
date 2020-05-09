@@ -25,9 +25,9 @@ const colors = {
   }
 };
 
-function HTML(data) {
+function getHTML(data) {
   return `<!DOCTYPE html>
-<html lang="en">
+  <html lang="en">
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -172,22 +172,53 @@ function HTML(data) {
         }
       </style>
     </head>
-  <body>
-    <header>
-      <div class="wrapper">
-        <div class="photoHeader">
-          <img>Profile Image</>
-          <h1>Hello!</h1>
-          <h2>I'm x-name</h2>
-          <h3>I'm currently at x-company </h3>
+    <body>
+      <header>
+        <div class="wrapper">
+          <div class="photoHeader">
+            <img>Profile Image</>
+            <h1>Hello!</h1>
+            <h2>I'm x-name</h2>
+            <h3>I'm currently at x-company </h3>
+          </div>
         </div>
+        <nav class="navbarLinks">
+          <a class="nav-link">location</a>
+          <a class="nav-link">github</a>
+          <a class="nav-link">blog</a>
+        </nav>
+      </header>
+
+      <div class="container">
+        <div class="row">
+          <divclass="col">
+            <h4>bio data</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col card">
+            <h2>public rep data</h2>
+          </div>
+        </div>
+        
+        <div class="col card">
+          <h2>followers data</h2>
+        </div>
+
+        <div class="row">
+          <div class="col card">
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="col card">
+          <h2>following data</h2>
+        </div>
+
       </div>
-      <nav class="navbarLinks">
-        <a class="nav-link">location</a>
-        <a class="nav-link">github</a>
-        <a class="nav-link">blog</a>
-      </nav>
-    </header>
-  </body>
-  
-}
+    </body>
+  </html>`
+};
+
+module.export = {getHTML};
