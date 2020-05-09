@@ -172,5 +172,22 @@ function HTML(data) {
         }
       </style>
     </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="photoHeader">
+          <img>Profile Image</>
+          <h1>Hello!</h1>
+          <h2>I'm x-name</h2>
+          <h3>I'm currently at x-company </h3>
+        </div>
+      </div>
+      <nav class="navbarLinks">
+        <a class="nav-link">location</a>
+        <a class="nav-link">github</a>
+        <a class="nav-link">blog</a>
+      </nav>
+    </header>
+  </body>
   
 }
