@@ -48,6 +48,7 @@ When preparing a report for stakeholders, it is important to have up-to-date inf
 
 <!-- * Try it our at: https://fguzmanrs.github.io/9-profileGenerator/ -->
 
-<!-- ## Future version to include: 
+## Future version to include: 
 
-* tbd -->
+* weekly view option
+* day navigators (yesterday, tomorrow)
