@@ -10,7 +10,7 @@ const questions = [
         type: "list",
         name: "color",
         message: "What is your favorite color?",
-        choices: ['green', 'blue', 'pink', 'red'],
+        choices: ['blue', 'green', 'pink', 'red'],
     }
 ];
 
