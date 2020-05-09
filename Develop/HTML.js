@@ -14,18 +14,18 @@ const colors = {
   pink: {
     wrapperBackground: "#F59CC3",
     headerBackground: "#A50F5B",
-    headerColor: "white",
+    headerColor: "fffcf9",
     photoBorderColor: "#FFCAD4"
   },
   red: {
     wrapperBackground: "#990033",
     headerBackground: "#6E0000",
-    headerColor: "white",
+    headerColor: "fffcf9",
     photoBorderColor: "CE4257"
   }
 };
 
-function generateHTML(data) {
+function HTML(data) {
   return `<!DOCTYPE html>
 <html lang="en">
    <head>
@@ -34,7 +34,7 @@ function generateHTML(data) {
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
       <link href="https://fonts.googleapis.com/css?family=BioRhyme|Cabin&display=swap" rel="stylesheet">
-      <title>Document</title>
+      <title>Profile</title>
       <style>
           @page {
             margin: 0;
@@ -61,7 +61,7 @@ function generateHTML(data) {
          font-family: 'Cabin', sans-serif;
          }
          main {
-         background-color: #E9EDEE;
+         background-color: #fffcf9;
          height: auto;
          padding-top: 30px;
          }
@@ -169,6 +169,8 @@ function generateHTML(data) {
           body { 
             zoom: .75; 
           } 
-         }
-      </style>`
         }
+      </style>
+    </head>
+  
+}
