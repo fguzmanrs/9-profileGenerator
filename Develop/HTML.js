@@ -208,7 +208,7 @@ function getHTML(data) {
 
         <div class="row">
           <div class="col card">
-            <h2></h2>
+            <h2>stars</h2>
           </div>
         </div>
 
